@@ -20,7 +20,7 @@ class Book
   def genre=(genre)
     @this_books_page_genre = genre
   end
-  def page_count
+  def genre
     @this_books_page_genre
   end
 end
