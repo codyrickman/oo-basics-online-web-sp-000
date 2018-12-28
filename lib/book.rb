@@ -12,7 +12,7 @@ class Book
     @this_books_author
   end
   def page_count=(pages)
-    @this_books_page_count = page_count
+    @this_books_page_count = pages
   end
   def page_count
     @this_books_page_count
